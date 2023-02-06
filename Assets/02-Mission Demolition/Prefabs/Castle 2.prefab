@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5463373309091605218}
   m_Layer: 0
-  m_Name: Castle 0
+  m_Name: Castle 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -435,7 +435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1656488781813318949, guid: 5603eea9d491b94429a8bdf0899e86e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 1656488781813318949, guid: 5603eea9d491b94429a8bdf0899e86e2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -748,7 +748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1656488781813318949, guid: 5603eea9d491b94429a8bdf0899e86e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1656488781813318949, guid: 5603eea9d491b94429a8bdf0899e86e2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -823,7 +823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9128043167909582409, guid: 636995c3e84f559459ffa8140969e633, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9128043167909582409, guid: 636995c3e84f559459ffa8140969e633, type: 3}
       propertyPath: m_LocalPosition.z
