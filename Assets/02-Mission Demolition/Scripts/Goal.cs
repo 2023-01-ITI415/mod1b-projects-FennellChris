@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent ( typeof(Renderer))]
-public class Goal : MonoBehaviour {
+[RequireComponent (typeof(Renderer))]
+public class Goal : MonoBehaviour{
 	static public bool 	goalMet = false;
 
 	void OnTriggerEnter(Collider other) {
 		// when the trigger is hit by something
 		// check to see if it's a Projectile 
 		Projectile proj = other.GetComponent<Projectile>();
-		if ( proj != null) {
+		if (proj != null) {
 			// if so, set goalMet = true
 			Goal.goalMet = true;
 
@@ -22,5 +22,4 @@ public class Goal : MonoBehaviour {
 		}
 	}
     // Start is called before the first frame update
-	
 }
